@@ -10,6 +10,7 @@ public class PrecioTotal {
     }
     public PrecioTotal(Double tAlimentos, Double tRefrescos, Double tCarnicos, Alimentos listaAlimentos[]){
         
+
     }
     // Metodo mostrar Total
     public void mostrarTotal(){
