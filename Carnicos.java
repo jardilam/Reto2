@@ -39,6 +39,6 @@ public class Carnicos extends Alimentos {
         // Método: 
         // Codigo calcular precio final
         precioFinalC = precioBase + adicion;
-        return precioFinalC;
+        return precioFinal;
     }
 }
