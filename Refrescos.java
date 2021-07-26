@@ -3,7 +3,7 @@ public class Refrescos extends Alimentos {
     private char lugarOrigen;
     private char LUGAR_ORIGEN = 'N';
     private Integer adicion;
-    private Double precioFinal;
+    private Double precioFinalR;
 
     // Constructores
     public Refrescos(){ 
@@ -34,9 +34,9 @@ public class Refrescos extends Alimentos {
     }
     public Double calcularPrecio(){
         // Metodo:
-        precioFinal = precioBase + adicion;
+        precioFinalR = precioBase + adicion;
         // Codigo calcular precio final return precioFinal;
-        return precioFinal;
+        return precioFinalR;
     }
 }
 

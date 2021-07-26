@@ -6,7 +6,7 @@ public class Alimentos {
     public Double precioBase;
     public Integer peso;
     public char tipoAlimento;
-    private Double precioFinal;
+    public Double precioFinalA;
     private Integer adicion;
     
     // Contructores
@@ -45,8 +45,8 @@ public class Alimentos {
     }
     public Double calcularPrecio(){
         // Codigo calcular precio final
-        precioFinal = precioBase + adicion;
-        return precioFinal;
+        precioFinalA = precioBase + adicion;
+        return precioFinalA;
     }
 }
 

@@ -4,12 +4,18 @@ public class PrecioTotal {
     private Double tRefrescos;
     private Double tCarnicos;
     private Alimentos listaAlimentos[];
+    private Alimentos precioFinalA;
+    private Carnicos precioFinalC;
+    private Refrescos precioFinalR;
+
     // Constructores
     public PrecioTotal() {
         
     }
     public PrecioTotal(Double tAlimentos, Double tRefrescos, Double tCarnicos, Alimentos listaAlimentos[]){
-        
+       this.tAlimentos = precioFinalA;
+       this.tRefrescos = precioFinalR;
+       this.tCarnicos = precioFinalC;
 
     }
     // Metodo mostrar Total

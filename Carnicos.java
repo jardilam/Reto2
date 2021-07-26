@@ -3,7 +3,7 @@ public class Carnicos extends Alimentos {
     private Integer TEMPERATURA = 10;
     private Integer temperatura;
     private Integer adicion;
-    private Double precioFinal;
+    public Double precioFinalC;
     // Contructores
     public Carnicos(){
         // Método: 
@@ -38,7 +38,7 @@ public class Carnicos extends Alimentos {
     public Double calcularPrecio(){
         // Método: 
         // Codigo calcular precio final
-        precioFinal = precioBase + adicion;
-        return precioFinal;
+        precioFinalC = precioBase + adicion;
+        return precioFinalC;
     }
 }
